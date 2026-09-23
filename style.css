@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f6f3;
+    color: #292525;
+    line-height: 1.6;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    width: 100%;
+    height: 75px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #8b5e83;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4d4747;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #8b5e83;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 600px;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee7eb;
+}
+
+.texto-inicio {
+    max-width: 600px;
+}
+
+.pequeno {
+    color: #8b5e83;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.texto-inicio h1 {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.texto-inicio h2 {
+    font-size: 27px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.texto-inicio p {
+    color: #625b5b;
+    margin-bottom: 30px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #8b5e83;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+.destaque {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #d7c2d2;
+}
+
+.circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+
+/* SOBRE MIM */
+
+.sobre {
+    padding: 100px 15%;
+    text-align: center;
+    background-color: white;
+}
+
+.titulo-pequeno {
+    color: #8b5e83;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.linha {
+    width: 60px;
+    height: 3px;
+    background-color: #8b5e83;
+    margin: 0 auto 30px;
+}
+
+.texto-central {
+    max-width: 750px;
+    margin: auto;
+    color: #686161;
+}
+
+
+/* INTERESSES */
+
+.interesses {
+    padding: 100px 10%;
+    text-align: center;
+    background-color: #f8f6f3;
+}
+
+.interesses h2 {
+    font-size: 36px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    min-height: 240px;
+    padding: 35px 25px;
+    background-color: white;
+    border: 1px solid #e6e1e3;
+    text-align: left;
+}
+
+.icone {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #706969;
+    font-size: 15px;
+}
+
+
+/* CONHECIMENTOS */
+
+.conhecimentos {
+    padding: 100px 10%;
+    text-align: center;
+    background-color: #eee7eb;
+}
+
+.conhecimentos h2 {
+    font-size: 36px;
+}
+
+.tecnologias {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+.tecnologia {
+    width: 280px;
+    padding: 30px;
+    background-color: white;
+    text-align: left;
+    border-top: 4px solid #8b5e83;
+}
+
+.tecnologia h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tecnologia p {
+    color: #6d6666;
+}
+
+
+/* OBJETIVOS */
+
+.objetivos {
+    padding: 100px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background-color: white;
+}
+
+.objetivo-texto {
+    max-width: 600px;
+}
+
+.objetivos h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.objetivo-texto p {
+    color: #686161;
+    margin-bottom: 15px;
+}
+
+.objetivo-box {
+    width: 280px;
+    padding: 35px;
+    background-color: #8b5e83;
+    color: white;
+}
+
+.objetivo-box span {
+    font-size: 14px;
+}
+
+.objetivo-box h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.objetivo-box p {
+    color: white;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #292525;
+    color: white;
+}
+
+footer h2 {
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+}
+
+footer p {
+    color: #cfcaca;
+}
+
+footer .copyright {
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 800px) {
+
+    header {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inicio {
+        padding: 60px 8%;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .texto-inicio h1 {
+        font-size: 60px;
+    }
+
+    .destaque {
+        width: 250px;
+        height: 250px;
+    }
+
+    .circulo {
+    width: 220px;
+    height: 220px;
+
+    }
+
+    .objetivos {
+        flex-direction: column;
+        text-align: center;
+    }
+}
